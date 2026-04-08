@@ -1,15 +1,15 @@
 #include <bits/stdc++.h>
 using namespace std;
 int cnt = 0;
-void print()
+void printName()
 {
     if (cnt == 5)
         return;
-    cout << cnt << " ";
+    cout << "ash" << " ";
     cnt++;
-    print();
+    printName();
 }
 int main()
 {
-    print();
+    printName();
 }
