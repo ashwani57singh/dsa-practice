@@ -8,6 +8,7 @@ void f(int i,int n)
     f(i+1,n);
      
 }
+//basic recursion
 int main()
 {
     int n;
