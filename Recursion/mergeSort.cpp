@@ -1,6 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;
-//jaise hi divide hua ab sbko merge kro compare krte hue(imp)
+//jaise hi divide hua ab sbko merge kro compare krte hue(important)
 void merge(vector<int>& arr, int low, int mid, int high) {
     vector<int> temp; //ek temp vector lelo jisme 
     int left = low;
